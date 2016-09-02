@@ -16,7 +16,7 @@ namespace U3d_WinForm
         {
             InitializeComponent();
             //axUnityWebPlayer1.src = Environment.CurrentDirectory + "\\U3d_Test\\Test.html";
-            webBrowser1.Navigate(Environment.CurrentDirectory + "\\U3d_Test\\index.html");
+            //webBrowser1.Navigate(Environment.CurrentDirectory + "\\U3d_Test\\index.html");
 
             Form2 form = new Form2();
             form.ShowDialog();
